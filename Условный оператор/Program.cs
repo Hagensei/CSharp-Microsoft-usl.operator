@@ -10,6 +10,9 @@ namespace Условный_оператор
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите своё имя:");
+            var name = Console.ReadLine();
+            Console.WriteLine("Привет, " + name);
         }
     }
 }
