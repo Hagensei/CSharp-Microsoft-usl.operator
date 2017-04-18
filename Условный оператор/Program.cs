@@ -12,7 +12,9 @@ namespace Условный_оператор
         {
             Console.WriteLine("Введите своё имя:");
             var name = Console.ReadLine();
-            Console.WriteLine("Привет, " + name);
+            if (name == "Вова")
+            Console.WriteLine("Я так ждала тебя, " + name);
+            else Console.WriteLine("Привет, {0}", name);
         }
     }
 }
